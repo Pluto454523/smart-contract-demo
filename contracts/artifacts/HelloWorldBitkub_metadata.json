@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/simpleBanko.sol": "HelloWorldBitkub"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/simpleBanko.sol": {
+			"keccak256": "0x84b55bb57644e9bdf453273a8aeb535c3b317c7c4a7b74036613186500d52a34",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://293fc4e5ad6e9073d6e6d9e066a6ae58a989c439800af788ae548feb1bd12f66",
+				"dweb:/ipfs/QmXd8PwrqtorujxHiWi622FbuoGeTBfJoA49MvqTYZRa1Q"
+			]
+		}
+	},
+	"version": 1
+}

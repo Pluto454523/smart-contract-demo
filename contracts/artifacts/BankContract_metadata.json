@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/bankContract.sol": "BankContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/bankContract.sol": {
+			"keccak256": "0x35e090782668b5ef26f5bf2b9c164e35798308e507d629e2a28157c7398814a7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4fa03194449fbd6e6e712aa8e33c2f7719ec4ec5676fd23e83820237ae00188e",
+				"dweb:/ipfs/QmdyzxxmfKubrcUB9dfuBrgrFvdEqnXfj448MXCiC16stJ"
+			]
+		}
+	},
+	"version": 1
+}
